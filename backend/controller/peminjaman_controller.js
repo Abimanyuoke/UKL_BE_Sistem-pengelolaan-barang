@@ -122,7 +122,7 @@ export const addPeminjaman = async (req, res) => {
       res.status(201).json({
         success: true,
         message: "Peminjaman Berhasil Dicatat",
-        data: {
+        pesan:{
           id_user: result.id_user,
           id_barang: result.id_barang,
           qty: result.qty,
